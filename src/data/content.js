@@ -86,7 +86,7 @@ export const projectsData = [
     stack: ["React.js", "Tailwind CSS", "REST APIs"],
     impact:
       "Improved workflow visibility and accountability by centralizing task operations behind a clean, modular UI.",
-    github: "https://github.com/Samrat-11", // replace with exact repo link
+    github: "https://github.com/samrat21saha", // replace with exact repo link
     demo: "#projects", // replace with live demo when available
   },
   {
@@ -96,7 +96,7 @@ export const projectsData = [
     stack: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
     impact:
       "Delivered a performant shopping experience with optimized REST APIs for search, comments, and core commerce flows.",
-    github: "https://github.com/Samrat-11", // replace with exact repo link
+    github: "https://github.com/samrat21saha", // replace with exact repo link
     demo: "#projects", // replace with live demo when available
   },
   {
@@ -106,7 +106,7 @@ export const projectsData = [
     stack: ["Flask", "Django", "REST APIs", "GitHub Actions"],
     impact:
       "Improved stability and usability across open-source and hackathon projects through focused debugging and integration work.",
-    github: "https://github.com/Samrat-11",
+    github: "https://github.com/samrat21saha",
     demo: "#projects",
   },
 ];

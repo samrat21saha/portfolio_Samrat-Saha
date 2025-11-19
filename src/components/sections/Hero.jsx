@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { heroContent } from "../../data/content";
+import profileImage from "../../assets/img.jpg";
 
 const container = {
   hidden: { opacity: 0 },
@@ -104,12 +105,15 @@ export const Hero = ({ onNavigate }) => (
         <div className="glass-panel relative overflow-hidden rounded-[2.5rem] p-8 text-center">
           <div className="absolute inset-0 bg-gradient-to-b from-[var(--accent)]/20 to-transparent" />
           <div className="relative flex flex-col items-center justify-center gap-4">
-            <div className="h-48 w-48 rounded-full bg-gradient-to-br from-[var(--accent)] to-[var(--accent-strong)]/60 text-black/90 flex items-center justify-center text-center text-lg font-semibold shadow-2xl animate-float">
-              Drop your portrait<br />or brand visual
+            <div className="h-48 w-48 overflow-hidden rounded-full border border-white/20 shadow-2xl animate-float">
+              <img
+                src={profileImage}
+                alt="Portrait of Samrat Saha"
+                className="h-full w-full object-cover"
+              />
             </div>
             <p className="text-sm text-[var(--text-muted)]">
-              Replace this placeholder with a transparent PNG or professional headshot to
-              personalize the hero section.
+              Swap this photo anytime by updating `src/assets/img.jpg`.
             </p>
           </div>
         </div>
